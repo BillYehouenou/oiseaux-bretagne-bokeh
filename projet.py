@@ -273,10 +273,10 @@ pieddepage = Div(text=f"\
         <p style='color:black;'>© 2023, Université de Rennes - Master 1 Mathématiques Appliquées, Statistiques</p>", style={'font-size': '14px','text-justify': 'auto','text-align': 'center'})
 
 # Création des div pour les images
-img1 = Div(text="<img src='img1.jpg' title='Mouette rieuse' style='width: 350px; height: 600px;'>")
-img2 = Div(text="<img src='img2.jpg' title='Héron cendré' style='width: 350px; height: 600px;'>")
-img3 = Div(text="<img src='img3.jpg' title='Macareux moine' style='width: 350px; height: 600px;'>")
-img4 = Div(text="<img src='img4.jpg' title='Bulbul orphée' style='width: 350px; height: 600px;'>")
+img1 = Div(text="<img src='oiseaux_images/img1.jpg' title='Mouette rieuse' style='width: 350px; height: 600px;'>")
+img2 = Div(text="<img src='oiseaux_images/img2.jpg' title='Héron cendré' style='width: 350px; height: 600px;'>")
+img3 = Div(text="<img src='oiseaux_images/img3.jpg' title='Macareux moine' style='width: 350px; height: 600px;'>")
+img4 = Div(text="<img src='oiseaux_images/img4.jpg' title='Bulbul orphée' style='width: 350px; height: 600px;'>")
 
 grid0 = gridplot([[entete0],[row(img1, img2, img3, img4)],[utilite],[pieddepage]])
 grid1 = gridplot([[entete1],[row(p1,p4)],[column(p2, range_slider)], [pieddepage]]) # Créer la grille de graphe
