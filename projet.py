@@ -1,5 +1,3 @@
-# Auteur : 22210577 - Bill Yehouenou
-
 # importation des libraries ---------------------------------------------------------------------------------------------------------
 import json ; import re ; import warnings ; import pandas as pd
 from math import pi
